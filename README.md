@@ -1,4 +1,5 @@
-# copy from https://github.com/ZhengkunTian/OpenTransformer
+# ASR transformer
+copy from https://github.com/ZhengkunTian/OpenTransformer
 
 This is a speech-transformer model for end-to-end speech recognition.
 If you have any questions, please email to me. (zhengkun.tian@nlpr.ia.ac.cn)

@@ -143,7 +143,7 @@ class AudioDataset(Dataset):
         if self.from_kaldi:
             feature = kio.load_mat(path)
         else:
-            wavform, sample_frequency = ta.load_wav(path)
+            wavform, sample_frequency = ta.load(path)
             feature = compute_fbank(wavform, num_mel_bins=self.params['num_mel_bins'], sample_frequency=sample_frequency, dither=0.0)
 
         if self.params['apply_cmvn']:
